@@ -28,10 +28,6 @@ Todos os arquivos onde estiver escrito seu IP coloque o IP da sua maquina
 # Executar para criar as tabelas do banco de dados
 $ yarn typeorm migrate:run
 
-# Popular banco de dados com as informações fixas dos itens coletados
-#ATENÇÃO: Antes de rodar esse comando, cópie os arquivos da pasta assets para a pasta upload do backend
-$ npx knex seed:run
-
 # Rodar o backend
 $ yarn dev
 ```
